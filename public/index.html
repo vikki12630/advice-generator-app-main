@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="stylesheet" href="output.css">
+
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container" class="w-full h-screen bg-[#202632] flex items-center">
+
+    <div id="card" class="w-10/12 bg-[#313a49] mx-auto rounded-2xl font-primary sm:w-2/6">
+      <h1 class="text-[#53ffaa] text-center py-8 text-[15px]">ADVICE<span id="idNo" class="px-2">#117</span></h1>
+      <p id="advice" class="text-[#cee3e8] text-[28px] text-center px-14 leading-9">"It is easy to sit up and take
+        notice, what's difficult is getting up and taking action."</p>
+      <div class="flex flex-col items-center px-6 pb-12 relative">
+        <img class="py-6 w-full" src="/images/pattern-divider-mobile.svg" alt="">
+        <div id="changebtn"
+          class="bg-[#53ffab] w-16 h-16 flex items-center justify-center rounded-full absolute top-20 cursor-pointer hover:shadow-custom">
+          <img class="z-10" src="/images/icon-dice.svg" alt="">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/vikki12630">Vikas Singh</a>.
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
